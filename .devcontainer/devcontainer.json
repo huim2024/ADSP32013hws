@@ -1,0 +1,19 @@
+{
+    "name": "Optimization",
+    "build": {
+        "dockerfile": "codespaces.dockerfile"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter",
+                "julialang.language-julia"
+            ],
+            "settings": {
+                "python.pythonPath": "$HOME/pyenv/bin/python",
+                "julia.environmentPath": "$HOME/jlenv"
+            }
+        }
+    }
+}
